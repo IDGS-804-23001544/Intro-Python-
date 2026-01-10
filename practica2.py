@@ -38,7 +38,7 @@ def menu():
 def main():
     opcion = 0
     while opcion != 5:
-        os.system("cls")  # limpia pantalla (Windows)
+        os.system("cls")  
         menu()
         opcion = int(input("Elige una opción: "))
 
